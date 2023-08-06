@@ -1,0 +1,142 @@
+/* Body styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+/* Header styles */
+#main-heading {
+  /* ID Selector: Targets the element with id="main-heading" */
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0;
+  color: #bd701e;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0;
+  color: #bd701e;
+}
+
+/* Navigation styles */
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: underline;
+  color: #0066cc;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Latest Gaming News styles */
+h2 {
+  text-align: center;
+  margin:  0;
+  }
+  
+  .list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  /* Featured Game styles */
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: #bd701e;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  list-style: none;
+  list-style-type: disc;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+b {
+    
+  font-weight: bold;
+  color: #bd701e;
+  text-align: center;
+}
+
+p a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/*Table styles*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  }
+  
+  th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #bd701e;
+  border-left: 1px solid #bd701e; /* Add left border to each column */
+  }
+  
+    th {
+  background-color: #bd701e;
+  border-top: 1px solid #bd701e; /* Add top border to header cells */
+
+  }
+  
+    tr:hover {
+  background-color: #bd701e;
+  }
+
+  /* Centering embedded videos.*/
+  iframe {
+  display: block;
+  margin: 0 auto;
+  }
+
+
+
+
